@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p>Your Zodiac Sign </p>
+
+<p id="demo"></p>
+
+<script>
+    let myBirthday = "February"
+    const date = 19;
+    let prnt;
+    if (myBirthday == "September"&& date ==23) {
+        prnt = "Your zodiac Sign is virgo ";
+
+
+    } else if (myBirthday == "January" && date == 20 || date == 21 || date == 22) {
+      prnt = "Your zodiac Sign is aquarius";
+
+    } else if (myBirthday == "February" && date == 19) {
+       prnt = "Your zodiac sign is Pisces";
+
+    } else if (myBirthday == "March" && date == 21) {
+       prnt = "Your zodiac sign is Aries ";
+
+    } else if (myBirthday == "April"  && date == 19) {
+       prnt = "Your zodiac sign is Aries";
+
+    } else if (myBirthday == "April" && date == 20) {
+       prnt = "Your zodiac sign is Taurus ";
+    } else if (myBirthday == "May " && date == 21) {
+       prnt = "Your zodiac sign is Gemini";
+    } else if (myBirthday == "June" && date == 22) {
+       prnt = "Your zodiac sign is Cancer";
+    } else if (myBirthday == "February" && date == 20) {
+       prnt = "Good day";
+    } else if (myBirthday == "February" && date == 20) {
+       prnt = "Good day";
+    } else {
+        prnt = "You have no zodiac sign";
+    }
+    document.getElementById("demo").innerHTML = prnt;
+</script>
+
+</body>
+</html>
